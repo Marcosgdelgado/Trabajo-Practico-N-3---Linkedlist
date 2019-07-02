@@ -1,0 +1,70 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "LinkedList.h"
+#include "Employee.h"
+#include "input.h"
+
+/** \brief Parsea los datos los datos de los empleados desde el archivo data.csv (modo texto).
+ *
+ * \param path char*
+ * \param pArrayListEmployee LinkedList*
+ * \return int
+ *
+ */
+
+int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee){
+    int r,i=0;
+    char var1[50],var3[50],var2[50],var4[50];
+    Employee* auxEmployee;
+    if (pFile == NULL){
+        printf ("Error al leer el archivo");
+    }
+    else{
+        /*leo los titulos
+        r = fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",var1,var2,var3,var4);
+        Se saco la lectura en falso, ya que sino el primer empleado con indice 1, pasaria
+        a estar en el indice 0 del linked list */
+        while( !feof(pFile))
+        {
+            r = fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n",var1,var2,var3,var4);
+            if(r==4)
+            {
+                auxEmployee = employee_newParametros(var1, var2, var3, var4);
+                i++;
+                ll_add(pArrayListEmployee,auxEmployee);
+            }
+            else
+                break;
+        }
+    }
+    return i;
+}
+
+/** \brief Parsea los datos los datos de los empleados desde el archivo data.csv (modo binario).
+ *
+ * \param path char*
+ * \param pArrayListEmployee LinkedList*
+ * \return int
+ *
+ */
+int parser_EmployeeFromBinary(FILE* pFile , LinkedList* pArrayListEmployee)
+{
+    int r,i;
+    Employee* pBinario;
+
+        do{
+                pBinario = employee_new(); //se coloca dentro del do porque sino pisa los otros datos dentro del linkedlist
+                if(fread(pBinario,sizeof(Employee),1, pFile)==1) //porque cuento con 1
+                {
+                    ll_add(pArrayListEmployee,pBinario);
+                }
+                   else
+                   {
+                       employee_delete(pBinario);
+                   }
+
+
+            }while( !feof(pFile));
+
+    return i;
+}

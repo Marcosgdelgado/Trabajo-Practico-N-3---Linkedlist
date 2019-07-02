@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1559855978 c:\users\rnovas002\downloads\tp3-master\tp_practico_3_linkedlist\linkedlist.h
+
+1559855978 c:\users\rnovas002\downloads\tp3-master\tp_practico_3_linkedlist\employee.h
+
+1559855978 c:\users\rnovas002\downloads\tp3-master\tp_practico_3_linkedlist\parser.h
+
+1559855978 c:\users\rnovas002\downloads\tp3-master\tp_practico_3_linkedlist\input.h
+
+1559855978 c:\users\rnovas002\downloads\tp3-master\tp_practico_3_linkedlist\controller.h
+
+1559855978 source:c:\users\rnovas002\downloads\tp3-master\tp_practico_3_linkedlist\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1559855978 source:c:\users\rnovas002\downloads\tp3-master\tp_practico_3_linkedlist\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"input.h"
+
+1559855978 source:c:\users\rnovas002\downloads\tp3-master\tp_practico_3_linkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"parser.h"
+	"input.h"
+
+1559855978 source:c:\users\rnovas002\downloads\tp3-master\tp_practico_3_linkedlist\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"input.h"
+
+1559855978 source:c:\users\rnovas002\downloads\tp3-master\tp_practico_3_linkedlist\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"input.h"
+	"controller.h"
+
+1562031363 source:c:\users\marcos\desktop\trabajo_practico_n3-master\tp_practico_3_linkedlist\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"input.h"
+	"controller.h"
+
+1560546656 c:\users\marcos\desktop\trabajo_practico_n3-master\tp_practico_3_linkedlist\linkedlist.h
+
+1560546656 c:\users\marcos\desktop\trabajo_practico_n3-master\tp_practico_3_linkedlist\employee.h
+
+1560546656 c:\users\marcos\desktop\trabajo_practico_n3-master\tp_practico_3_linkedlist\parser.h
+
+1560546656 c:\users\marcos\desktop\trabajo_practico_n3-master\tp_practico_3_linkedlist\input.h
+
+1560546656 c:\users\marcos\desktop\trabajo_practico_n3-master\tp_practico_3_linkedlist\controller.h
+
+1560546656 source:c:\users\marcos\desktop\trabajo_practico_n3-master\tp_practico_3_linkedlist\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1560546656 source:c:\users\marcos\desktop\trabajo_practico_n3-master\tp_practico_3_linkedlist\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"input.h"
+
+1562029981 source:c:\users\marcos\desktop\trabajo_practico_n3-master\tp_practico_3_linkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"parser.h"
+	"input.h"
+
+1562030537 source:c:\users\marcos\desktop\trabajo_practico_n3-master\tp_practico_3_linkedlist\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"input.h"
+
+1562031363 source:c:\users\marcos\desktop\trabajo_practico_n3-master\tp  3 linkedlist\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"input.h"
+	"controller.h"
+
+1560546656 c:\users\marcos\desktop\trabajo_practico_n3-master\tp  3 linkedlist\linkedlist.h
+
+1560546656 c:\users\marcos\desktop\trabajo_practico_n3-master\tp  3 linkedlist\employee.h
+
+1560546656 c:\users\marcos\desktop\trabajo_practico_n3-master\tp  3 linkedlist\parser.h
+
+1560546656 c:\users\marcos\desktop\trabajo_practico_n3-master\tp  3 linkedlist\input.h
+
+1560546656 c:\users\marcos\desktop\trabajo_practico_n3-master\tp  3 linkedlist\controller.h
+
+1560546656 source:c:\users\marcos\desktop\trabajo_practico_n3-master\tp  3 linkedlist\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1560546656 source:c:\users\marcos\desktop\trabajo_practico_n3-master\tp  3 linkedlist\input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"input.h"
+
+1562029981 source:c:\users\marcos\desktop\trabajo_practico_n3-master\tp  3 linkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"parser.h"
+	"input.h"
+
+1562030537 source:c:\users\marcos\desktop\trabajo_practico_n3-master\tp  3 linkedlist\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"input.h"
+
